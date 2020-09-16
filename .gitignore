@@ -1,0 +1,11 @@
+# Copyright 2020 Siemens AG
+# SPDX-License-Identifier: MIT
+.idea
+.ipython
+.jupyter
+.keras
+.local
+.ipynb_checkpoints
+build
+.pytest_cache
+__pycache__
