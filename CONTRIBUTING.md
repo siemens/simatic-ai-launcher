@@ -21,7 +21,7 @@ success, so please respect our [Code of Conduct](CODE_OF_CONDUCT.md).
 ## Guidelines
 
 - Add the required copyright header to each new file introduced, see
-  [licensing information](LICENSING.md)
+  [licensing information](LICENSE.md)
 
 - Base patches on top of latest master
 
@@ -32,6 +32,8 @@ success, so please respect our [Code of Conduct](CODE_OF_CONDUCT.md).
 - Send reminder if nothing happened after about a week
 
 ### Workflow
+
+Please sign our [Contribution License Agreement](Siemens_CLA_1.0.pdf) and send it back to us. 
 
 We use the
 [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
@@ -47,5 +49,5 @@ Commit messages shall follow the conventions defined by the angular commit conve
 > **NOTE**: Changes supposed to be upstreamed shall structure the commit message
 > according to the upstream project's guidelines.
 
-#Coding Guideline
+### Coding Guideline
 Please follow the [PEP-8](https://www.python.org/dev/peps/pep-0008/) coding guideline. This is intended to improve the readability of code and make it consistent across the wide spectrum of Python.

@@ -1,4 +1,4 @@
-AI-Toolbox for AI Portfolio
+Toolbox for SIMATIC AI Launcher
 =========================================
 
 Overview

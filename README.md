@@ -1,14 +1,14 @@
 <!--- Copyright 2020 Siemens AG -->
 <!--- SPDX-License-Identifier: MIT -->
-# Overview
+# Toolbox for SIMATIC AI Launcher
 
 ## Content  
 
-This project focuses on the code examples referenced in SIMATIC AI Portfolio. An automotive engineer can create and train effective neural networks which can be used in the SIMATIC AI ecosystem by following the instructions on the Getting Started pages of the AI Portfolio. For further information please read our [SIMATIC AI Portfolio portal](https://support.industry.siemens.com/cs/dl-media/109780569/AI_Portfolio/start.html?lang=en). The project also contains some configuration file for each example to build a tested environment where the ipython notebooks can be executed.  
+This project focuses on the code examples referenced in SIMATIC AI Launcher. An automotive engineer can create and train effective neural networks that can be used in the SIMATIC AI setup by following the instructions on the Getting Started pages of the SIMATIC AI Launcher. For a detailed explanation of the example notebooks, and further information please visit our [portal](https://support.industry.siemens.com/cs/ww/en/view/109780569). This project also contains configuration files to build isolated python environments, containing all the necessary packages to execute the ipython notebooks.
 
 ## Folder structure:  
 - **ai-examples**:  
-Main folder for exploratory python scripts on SIMATIC AI Portfolio
+Main folder for exploratory python scripts on SIMATIC AI Launcher
   - ***.ipynb files**: IPython notebook files containing AI application examples. They are designed to run in JupyterLab.
   - ***.py files**: python files containing utility functions and methods, classes, programs. They are designed to run from command line or ipython notebooks.
 - **datasets**:  
@@ -21,8 +21,13 @@ This folder contains necessary files to build python environment to run ipython 
 
 # Environment Setup
 
-All notebooks can be opened using Google Colab or in a local environment using Conda, Docker, or python virtualenv. Please see the readme files in the environment folder for more details about setting up a local environment
+To avoid changing your working python environment, we provide instructions to build isolated ipython kernels that can run our notebooks through JupyterLab. The kernels can be built using Conda, Docker, or python virtualenv. You can choose the most suitable environment based on your system environment or your taste. Please see the readme files in the environment folder for more details about setting up a specific environment.
 
-# Usage
+- The **dockerized** solution contains a basic python environment, including all of the notebook dependencies and also JupyterLab, available on port 8888. This solution requires some engineering knowledge about docker containers but it is the cleanest option if you haven't already got JupyterLab installed.
 
-All environments described above contain Jupyterlab. all notebooks can be opened and executed using the JupyterLab webUI (port 8888 by default).
+- The **conda** solution creates a new conda environment for the given ipython notebook with all the notebook dependencies but without any JupyterLab installation. You should choose this option if you already have a python environment with conda and JupyterLab installed.
+
+- The **virtualenv** solution contains the know how about creating and using a python virtual environment. In this case you also need to install the notebook related dependencies manually from a requirements.txt file. This is the lightest and most transparent among our solutions.
+
+# Legal information
+For licensing information please refer to the [LICENSE](https://code.siemens.com/felix.mannewitz/ai-toolbox/-/blob/master/LICENSE.md) and [THIRD-PARTY-LICENSES](https://code.siemens.com/felix.mannewitz/ai-toolbox/-/blob/master/THIRD-PARTY-NOTICES) documents.

@@ -1,0 +1,13 @@
+# Copyright 2020 Siemens AG
+# SPDX-License-Identifier: MIT
+
+name: image-classification
+channels:
+  - defaults
+dependencies:
+  - python=3.7.6
+  - pip=20.2.2
+  - pip:
+      # for registering conda env as ipykernel
+      - ipykernel==5.3.0
+      - -r file:../../ai-examples/image-classification/requirements.txt

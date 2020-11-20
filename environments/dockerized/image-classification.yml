@@ -1,0 +1,14 @@
+# Copyright 2020 Siemens AG
+# SPDX-License-Identifier: MIT
+
+version: '3'
+services:
+  ai-toolbox:
+    container_name: image-classification
+    image: jupyter/scipy-notebook:54462805efcb
+    command: bash -c "pip install -r ./work/ai-examples/image-classification/requirements.txt && jupyter lab --ip=0.0.0.0 --port=8888"
+    ports:
+        - "6000-6007:6000-6007"
+        - "8888:8888"
+    volumes:
+        - ../../:/home/jovyan/work
