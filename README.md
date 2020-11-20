@@ -4,6 +4,8 @@
 
 ## Content  
 
+Dummy
+
 This project focuses on the code examples referenced in SIMATIC AI Launcher. An automotive engineer can create and train effective neural networks that can be used in the SIMATIC AI setup by following the instructions on the Getting Started pages of the SIMATIC AI Launcher. For a detailed explanation of the example notebooks, and further information please visit our [portal](https://support.industry.siemens.com/cs/ww/en/view/109780569). This project also contains configuration files to build isolated python environments, containing all the necessary packages to execute the ipython notebooks.
 
 ## Folder structure:  
