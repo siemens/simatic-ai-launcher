@@ -8,7 +8,7 @@ With the next command you can run a docker container with the necessary packages
 Once you have cloned the repository, you can start the docker container with the following command:  
 
 ```commandline
-docker-compose -f image-classification.yml up
+docker-compose -f <path-to-ai-toolbox>/environments/dockerized/image-classification.yml up
 ```
 
 This command corresponds to the image classification sample. If you want to work with another example, choose the relevant docker compose .yaml file. For changing specific settings, you can edit this file. You can find more information about docker compose on the official [docker](https://docs.docker.com/compose/gettingstarted/) website.
