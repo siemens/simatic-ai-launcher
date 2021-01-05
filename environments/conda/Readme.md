@@ -3,7 +3,7 @@
 
 # Using conda
 
-By running the next commands you can create a conda virtual environment with the necessary packages to run the related ipython notebook, and then install this environment as an ipython kernel for your user. We assume you already have conda, and JupyterLab installed on your system. If you haven't got one of these, please refer to the official [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html) and [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/) installation guides.
+By running the next commands you can create a conda virtual environment with the necessary packages to run the related IPython notebook, and then install this environment as an IPython kernel for your user. We assume you already have conda, and JupyterLab installed on your system. If either of these is missing, please refer to the official [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html) and [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/) installation guides.
 
 Create and activate the new conda environment:
 ```commandline
@@ -13,7 +13,7 @@ conda activate image-classification
 ``` 
 
 
-Install a new ipython kernel using the freshly created conda environment: (please make sure the kernel name doesn't already exist in your kernel list)
+Install a new IPython kernel using the freshly created conda environment: (please make sure the kernel name doesn't already exist in your kernel list)
 ```commandline
 python -m ipykernel install --user --name image-classification --display-name "Python (image-classification)"
 ``` 
