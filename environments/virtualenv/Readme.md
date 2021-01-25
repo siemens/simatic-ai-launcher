@@ -9,8 +9,10 @@ Create and activate the new virtualenv environment:
 ```commandline
 python -m venv <path_to_new_virtual_environment>
 
-<path_to_new_virtual_environment>/Scripts/activate
+<path_to_new_virtual_environment>/Scripts/activate.bat
 ```
+On a **Linux** distribution instead of */Scripts/activate.bat*, use */bin/activate*.
+
 Install required python packages from *requirements.txt* in *image-classification* directory:
 ```commandline
 pip install -r <path-to-ai-toolbox>/ai-examples/image-classification/requirements.txt
@@ -23,8 +25,9 @@ python -m ipykernel install --user --name image-classification --display-name "P
 ``` 
 Deactivate the virtual environment:
 ```commandline
-<path_to_new_virtual_environment>/Scripts/deactivate
+<path_to_new_virtual_environment>/Scripts/deactivate.bat
 ```
+On a **Linux** distribution instead of */Scripts/deactivate.bat*, use */bin/deactivate*.
 
 The new kernel is now ready to be used from JupyterLab. To run the notebooks, just start up your already installed JupyterLab instance:
 ```commandline

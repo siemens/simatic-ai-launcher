@@ -30,4 +30,4 @@ To avoid changing your working python environment, we provide instructions to bu
 - The **virtualenv** solution contains the know-how for creating and using a python virtual environment. In this case you also need to install the notebook-related dependencies manually from a *requirements.txt* file. This is the lightest and most transparent among our solutions.
 
 # Legal information
-For licensing information please refer to the [LICENSE](LICENSE.md) and [THIRD-PARTY-LICENSES](THIRD-PARTY-NOTICES.md) documents.
+For licensing information please refer to the [LICENSE](LICENSE.md) and [THIRD-PARTY-LICENSES](THIRD-PARTY-LICENSES.md) documents.

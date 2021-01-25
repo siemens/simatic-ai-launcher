@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See standard-version for commit guidelines.
 
+### 1.0.1 (2021-01-25)
+
+
+### Features
+
+* **TFS-8019:** Remove object detection (e994825)
+* **TFS-8045:** automatic release to github (8a7b177)
+* **TFS-8827:** deploy to artifactory (a1486ed)
+* **TFS-9376:** synchronize GitHub (3045ead)
+
+
+### Documentation
+
+* **TFS-8515:** Update Readme.md files (b344c47)
+
 ## 1.0.0 (2020-11-20)
 
 
