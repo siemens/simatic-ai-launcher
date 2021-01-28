@@ -12,7 +12,7 @@ We welcome contributions in several forms, e.g.
 
 Please read [14 Ways to Contribute to Open Source without Being a Programming Genius or a Rock Star](https://smartbear.com/blog/test-and-monitor/14-ways-to-contribute-to-open-source-without-being/ ).
 
-Please check [Issues](https://code.siemens.com/siemens/code/-/issues) and look for
+Check [Issues](https://code.siemens.com/siemens/code/-/issues) and look for
 unassigned ones or create a new one.
 
 Working together in an open and welcoming environment is the foundation of our
@@ -20,16 +20,16 @@ success, so please respect our [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## Guidelines
 
-- Add the required copyright header to each new file introduced, see
+- add the required copyright header to each new file introduced, see
   [licensing information](LICENSE.md)
 
-- Base patches on top of latest master
+- base patches on top of latest master
 
-- Test patches sufficiently
+- test patches sufficiently
 
-- When reaching out, be explicit about issues, merge requests, commits etc. Use commit hash, merge request ID or issue ID.
+- when reaching out, be explicit about issues, merge requests, commits etc. by using commit hash, merge request ID or issue ID
 
-- Send reminder if nothing happened after about a week
+- send reminder if nothing happened after about a week
 
 ### Workflow
 
@@ -44,7 +44,7 @@ and send us [Merge Requests](https://code.siemens.com/help/user/project/merge_re
 
 ### Commit Message
 
-Commit messages shall follow the conventions defined by the angular commit convention. Please refer to the [Angular Commit Format Reference Sheet](https://gist.github.com/brianclements/841ea7bffdb01346392c).
+Commit messages shall follow the conventions defined by the Angular commit convention. Refer to the [Angular Commit Format Reference Sheet](https://gist.github.com/brianclements/841ea7bffdb01346392c).
 
 > **NOTE**: Changes supposed to be upstreamed shall structure the commit message
 > according to the upstream project's guidelines.
