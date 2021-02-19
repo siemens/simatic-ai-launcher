@@ -15,7 +15,7 @@ This command corresponds to the image classification sample. If you want to work
 
 Running the compose downloads the chosen docker image, installs the python dependencies, and starts JupyterLab. In the background, the compose file also maps the Jupyter- and TensorBoard-related ports, as well as the previously cloned folder structure. Depending on your docker client version, you might need to enable folder sharing in its settings.
 
-Once the JupyterLab has started, the following log appears on your terminal with the url to access it.
+Once the JupyterLab has started, the following log appears on your terminal with the URL to access it.
 ```commandline
 image-classification    |     To access the notebook, open this file in a browser:
 [..]

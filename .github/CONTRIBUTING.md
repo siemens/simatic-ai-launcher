@@ -12,16 +12,16 @@ We welcome contributions in several forms, e.g.
 
 Please read [14 Ways to Contribute to Open Source without Being a Programming Genius or a Rock Star](https://smartbear.com/blog/test-and-monitor/14-ways-to-contribute-to-open-source-without-being/ ).
 
-Check [Issues](https://code.siemens.com/siemens/code/-/issues) and look for
+Check [Issues](https://github.com/siemens/simatic-ai-launcher/issues) and look for
 unassigned ones or create a new one.
 
 Working together in an open and welcoming environment is the foundation of our
-success, so please respect our [Code of Conduct](CODE_OF_CONDUCT.md).
+success, so please respect our [Code of Conduct](../CODE_OF_CONDUCT.md).
 
 ## Guidelines
 
 - add the required copyright header to each new file introduced, see
-  [licensing information](LICENSE.md)
+  [licensing information](../LICENSE.md)
 
 - base patches on top of latest master
 
@@ -33,14 +33,14 @@ success, so please respect our [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ### Workflow
 
-Please sign our [Contribution License Agreement](Siemens_CLA_1.0.pdf) and send it back to us. 
+Please sign our [Contribution License Agreement](../Siemens_CLA_1.0.pdf) and send it to one of our [maintainers](../MAINTAINERS.md). 
 
 We use the
 [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
 and review all changes we merge to master.
 
 We appreciate any contributions, so please use the [Forking Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow)
-and send us [Merge Requests](https://code.siemens.com/help/user/project/merge_requests/index.md)!
+and send us [Pull Requests](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)!
 
 ### Commit Message
 
