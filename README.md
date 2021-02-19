@@ -1,3 +1,5 @@
+@ignore: conda
+
 <!--- Copyright 2020 Siemens AG -->
 <!--- SPDX-License-Identifier: MIT -->
 # Toolbox for SIMATIC AI Launcher
@@ -15,7 +17,7 @@ Main folder for exploratory python scripts on SIMATIC AI Launcher
 This folder contains datasets to train the networks created with the notebooks in the **ai-examples** folder.
 - **environments**:  
 This folder contains the files necessary to build a python environment for running IPython notebooks prepared in the **ai-examples** folder.
-  - **conda**: contains an *image-classification.yml* file required to build a conda virtual environment with the necessary python packages and a *Readme.md* file for guidance
+  - **conda**: contains an *image-classification.yml* file required to build a Conda virtual environment with the necessary python packages and a *Readme.md* file for guidance
   - **dockerized**: contains an *image-classification.yml* compose file for setting up your container and a *Readme.md* file for guidance
   - **virtualenv**: contains a *Readme.md* to help you setting up your virtual environment
   
@@ -25,7 +27,7 @@ To avoid changing your working python environment, we provide instructions to bu
 
 - The **dockerized** solution contains a basic python environment, including all of the notebook dependencies and a JupyterLab, available on port 8888. This solution requires some engineering knowledge about docker containers, but it is the cleanest option if you do not have JupyterLab already installed on your system.
 
-- The **conda** solution creates a new conda environment for the given IPython notebook with all the notebook dependencies but without any JupyterLab installation. Choose this option if you already have a python environment with conda and JupyterLab installed.
+- The **conda** solution creates a new Conda environment for the given IPython notebook with all the notebook dependencies but without any JupyterLab installation. Choose this option if you already have a python environment with Conda and JupyterLab installed.
 
 - The **virtualenv** solution contains the know-how for creating and using a python virtual environment. In this case you also need to install the notebook-related dependencies manually from a *requirements.txt* file. This is the lightest and most transparent among our solutions.
 
