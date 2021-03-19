@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See standard-version for commit guidelines.
 
+### 1.0.4 (2021-03-19)
+
+
+### Bug Fixes
+
+* **TFS-11007:** clearing (eafd715)
+
+
+### Tests
+
+* **TFS-9485:** contains TFS-8831, adapting tests to Robot framework (a977aa3)
+
 ### 1.0.3 (2021-02-19)
 
 

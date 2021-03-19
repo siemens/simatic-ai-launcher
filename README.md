@@ -1,4 +1,3 @@
-@ignore: conda
 
 <!--- Copyright 2020 Siemens AG -->
 <!--- SPDX-License-Identifier: MIT -->
