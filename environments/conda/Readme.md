@@ -1,4 +1,4 @@
-<!--- Copyright 2020 Siemens AG -->
+<!--- Copyright 2021 Siemens AG -->
 <!--- SPDX-License-Identifier: MIT -->
 
 # Using Conda

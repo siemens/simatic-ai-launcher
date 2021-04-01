@@ -1,4 +1,4 @@
-<!--- Copyright 2020 Siemens AG -->
+<!--- Copyright 2021 Siemens AG -->
 <!--- SPDX-License-Identifier: MIT -->
 # Contributing
 
@@ -33,7 +33,7 @@ success, so please respect our [Code of Conduct](../CODE_OF_CONDUCT.md).
 
 ### Workflow
 
-Please sign our [Contribution License Agreement](../Siemens_CLA_1.0.pdf) and send it to one of our [maintainers](../MAINTAINERS.md). 
+Please sign our [Contribution License Agreement](../Siemens_CLA_1.1.pdf) and send it to one of our [maintainers](../MAINTAINERS.md). 
 
 We use the
 [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
