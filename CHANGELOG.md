@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See standard-version for commit guidelines.
 
+### 1.0.5 (2021-04-01)
+
+
+### Features
+
+* **TFS-10675, TFS-10674:** automate release jobs (53b4602)
+* **TFS-10933:** update copyright (0ac1ef1)
+* **TFS-11259:** remove venv and conda tests (56c7839)
+* **TFS-9511, TFS-11320:** save model to .pt and .onnx (4df3326)
+
+
+### Bug Fixes
+
+* **TFS-11054:** update pillow version (b55c112)
+
 ### 1.0.4 (2021-03-19)
 
 
