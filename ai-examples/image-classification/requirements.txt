@@ -5,5 +5,5 @@ tensorflow==1.15.2
 tensorflow-hub==0.8.0
 h5py==2.*
 matplotlib==3.0.3
-pillow==8.1.2 
+pillow==8.2.0  
 scipy==1.4.1
