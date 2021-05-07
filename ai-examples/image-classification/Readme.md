@@ -9,3 +9,4 @@ The AI Solution Package enables the use of image classification techniques in an
 Created to use python script re-training the MobileNet network changing only the parameters of the script.
 - **image-classification-advanced.ipynb**:  
 More detailed notebook example that you can use to train a classifier network from MobileNet and save the trained network afterwards.
+ 
