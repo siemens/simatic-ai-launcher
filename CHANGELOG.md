@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See standard-version for commit guidelines.
 
+### 1.0.6 (2021-05-07)
+
+
+### Features
+
+* **TFS-11385:** use gherkin in tests (0172178)
+* **TFS-11626:** Pipeline preprocess job (a3896d6)
+* **TFS-11914:** Refactor pipeline job (041e067)
+* **TFS-9402:** pep8 notebooks (e64db09)
+
+
+### Bug Fixes
+
+* **TFS-12035:** renaming typo in notebook filename (5348bf3)
+
 ### 1.0.5 (2021-04-01)
 
 
