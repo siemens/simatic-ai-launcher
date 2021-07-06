@@ -13,7 +13,7 @@ Main folder for exploratory python scripts on SIMATIC AI Launcher
   - ***.ipynb files**: IPython notebook files containing AI application examples. They are designed to run in JupyterLab.
   - ***.py files**: python files containing utility functions and methods, classes, programs. They are designed to run from command line or IPython notebooks.
 - **datasets**:  
-This folder contains datasets to train the networks created with the notebooks in the **ai-examples** folder.
+This folder contains datasets to support your work with example projects described on the SIMATIC AI Launcher Getting Started Portal. For detailed information, refer to their [Readme](datasets/Readme.md) document.
 - **environments**:  
 This folder contains the files necessary to build a python environment for running IPython notebooks prepared in the **ai-examples** folder.
   - **conda**: contains an *image-classification.yml* file required to build a Conda virtual environment with the necessary python packages and a *Readme.md* file for guidance

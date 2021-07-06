@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file. See standard-version for commit guidelines.
 
+### 2.5.0 (2021-07-05)
+
+
+### Features
+
+* **13891:** add legal info to washing-machine db (6e0cad7)
+* **TFS-14223:** update readme with TS datasets (942b1ce)
+
+### 2.4.5 (2021-06-17)
+
+
+### Features
+
+* **TFS-11105:** timeseries datasets (4fe4c9a)
+* **TFS-13244:** update sail jupyter (8d0896d)
+* **TFS-13584:** speed up release (52df227)
+
+### 1.0.7 (2021-05-21)
+
+
+### Features
+
+* **TFS-12923:** change artifact folder name (528946a)
+
 ### 1.0.6 (2021-05-07)
 
 
