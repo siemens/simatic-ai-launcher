@@ -10,4 +10,4 @@ dependencies:
   - pip:
       # for registering conda env as ipykernel
       - ipykernel==5.3.0
-      - -r file:../../ai-examples/image-classification/requirements.txt
+      - -r file:../../ai-examples/image-classification/requirements.txt --use-feature=2020-resolver

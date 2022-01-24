@@ -15,7 +15,7 @@ On a **Linux** distribution instead of */Scripts/activate.bat*, use */bin/activa
 
 Install required python packages from *requirements.txt* in *image-classification* directory:
 ```commandline
-pip install -r <path-to-ai-toolbox>/ai-examples/image-classification/requirements.txt
+pip install -r <path-to-ai-toolbox>/ai-examples/image-classification/requirements.txt --use-feature=2020-resolver
 ```
 Install a new IPython kernel using the freshly created virtualenv environment (make sure the kernel name does not already exist in your kernel list):
 ```commandline
