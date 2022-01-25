@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See standard-version for commit guidelines.
 
+### 2.5.2 (2022-01-24)
+
+### 2.5.1 (2021-11-12)
+
 ### 2.5.0 (2021-07-05)
 
 
