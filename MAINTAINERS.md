@@ -4,4 +4,3 @@
 - attila.budai@evosoft.com
 - zsolt.szabo@evosoft.com
 - sara.jellinek@evosoft.com
-- zsolt.versenyi@evosoft.com
